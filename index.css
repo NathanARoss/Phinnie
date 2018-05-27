@@ -34,7 +34,9 @@ main {
     position: fixed;
     top: 0;
     width: 100%;
-    text-indent: 2em;
+    text-indent: 3em;
+    line-height: 2em;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 600px) {
@@ -61,12 +63,12 @@ main {
 }
 
 .menu a {
+    padding: 0.5em;
     display: block;
     transition: background-color 0.15s;
 }
 
 .menu a, .menu-invoker {
-    padding: 0.5em;
     text-decoration: none;
     color: black;
 }
