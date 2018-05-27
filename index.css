@@ -30,11 +30,11 @@ main {
     background-size: contain;
     background-position: left;
     background-color: var(--secondary-purple);
-    height: 2em;
     display: none;
     position: fixed;
     top: 0;
     width: 100%;
+    text-indent: 2em;
 }
 
 @media screen and (max-width: 600px) {
@@ -62,10 +62,13 @@ main {
 
 .menu a {
     display: block;
+    transition: background-color 0.15s;
+}
+
+.menu a, .menu-invoker {
     padding: 0.5em;
     text-decoration: none;
     color: black;
-    transition: background-color 0.15s;
 }
 
 .menu a:hover {
