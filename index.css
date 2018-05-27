@@ -106,3 +106,7 @@ p.center {
     max-width: 100%;
     margin: 0.5em;
 }
+
+.center-contents p {
+    text-indent: 1em;
+}
